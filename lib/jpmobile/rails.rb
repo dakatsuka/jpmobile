@@ -4,6 +4,7 @@ ActiveSupport.on_load(:action_controller) do
   require 'jpmobile/filter'
   require 'jpmobile/helpers'
   require 'jpmobile/hook_action_controller'
+  require 'jpmobile/hook_action_dispatch'
   require 'jpmobile/hook_action_view'
   require 'jpmobile/trans_sid'
 end
